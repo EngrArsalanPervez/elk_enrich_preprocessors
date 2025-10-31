@@ -15,3 +15,6 @@ sudo timedatectl set-time "2025-09-26 11:30:00"
 
 # 6. Re-enable automatic time sync if you want the system to keep correct time automatically
 sudo timedatectl set-ntp true
+
+# Sync clock
+hwclock -w
