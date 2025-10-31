@@ -18,3 +18,6 @@ sudo timedatectl set-ntp true
 
 # Sync clock
 hwclock -w
+
+# show hhwclock
+hwclock
